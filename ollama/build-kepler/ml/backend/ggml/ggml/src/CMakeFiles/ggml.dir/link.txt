@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libggml.so.0 -o ../../../../../lib/ollama/libggml.so.0.0.0 "CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o"  -Wl,-rpath,/home/user/Desktop/ollima/ollama/build-kepler/lib/ollama ../../../../../lib/ollama/libggml-base.so.0.0.0 -ldl 
